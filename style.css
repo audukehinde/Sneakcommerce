@@ -9,3 +9,45 @@
 body {
   font-family: 'Lato', sans-serif;
 }
+
+nav {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 50px;
+}
+
+.nav-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  background-color: gray;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.search-input {
+  padding: 10px 10px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  font-size: 17px;
+}
+
+.search-input::placeholder {
+  color: #fff;
+}
+
+.limited-offer {
+  font-size: 25px;
+  border-bottom: 1px solid green;
+  cursor: pointer;
+}
+
+.search-icon {
+  cursor: pointer;
+}
