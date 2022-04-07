@@ -135,7 +135,7 @@ nav {
 }
 
 .slider-item:nth-child(1) .slider-bg {
-  background-color: rgb(1, 65, 44);
+  background-color: rgb(7, 206, 139);
 }
 
 .slider-item:nth-child(2) .slider-bg {
@@ -152,4 +152,24 @@ nav {
 
 .slider-item:nth-child(5) .slider-bg {
   background-color: rgb(30, 255, 22);
+}
+
+.slider-item:nth-child(1) .slider-price {
+    color: rgb(7, 206, 139);
+}
+
+.slider-item:nth-child(2) .slider-price {
+    color: rgb(50, 6, 68);
+}
+
+.slider-item:nth-child(3) .slider-price {
+    color: rgb(250, 14, 14);
+}
+
+.slider-item:nth-child(4) .slider-price {
+    color: rgb(252, 35, 198);
+}
+
+.slider-item:nth-child(5) .slider-price {
+    color: rgb(30, 255, 22);
 }
