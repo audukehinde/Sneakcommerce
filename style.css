@@ -158,21 +158,134 @@ nav {
 }
 
 .slider-item:nth-child(1) .slider-price {
-    color: rgb(7, 206, 139);
+  color: rgb(7, 206, 139);
 }
 
 .slider-item:nth-child(2) .slider-price {
-    color: rgb(184, 8, 253);
+  color: rgb(184, 8, 253);
 }
 
 .slider-item:nth-child(3) .slider-price {
-    color: rgb(250, 14, 14);
+  color: rgb(250, 14, 14);
 }
 
 .slider-item:nth-child(4) .slider-price {
-    color: rgb(252, 35, 198);
+  color: rgb(252, 35, 198);
 }
 
 .slider-item:nth-child(5) .slider-price {
-    color: rgb(30, 255, 22);
+  color: rgb(30, 255, 22);
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.feature-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-title {
+  padding-top: 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.feature-desc {
+  width: 50%;
+  height: 100px;
+  text-align: center;
+  padding-top: 15px;
+  color: gray;
+}
+
+.product {
+  height: 100vh;
+  background-color: whitesmoke;
+  position: relative;
+  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.product-img {
+  width: 50%;
+}
+
+.product-details {
+  position: absolute;
+  top: 15%;
+  right: 100px;
+  width: 40%;
+  padding: 50px;
+}
+
+.product-title {
+  font-size: 75px;
+  padding-bottom: 15px;
+  font-weight: 900;
+}
+
+.product-price {
+  font-size: 40px;
+  font-weight: 900;
+  padding-bottom: 15px;
+}
+
+.product-desc {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.colors, .sizes {
+  display: flex;
+}
+
+.size {
+  margin-right: 15px;
+  margin-bottom: 15px;
+  padding: 5px 20px;
+  font-size: 20px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.color {
+  width: 32px;
+  height: 32px;
+  border-radius: 5px;
+  background-color: #000;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.color:last-child {
+  background-color: darkblue;
+}
+
+.product-btn {
+  float: right;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #000;
+  color: #fff;
+  font-weight: 900;
+  border: none;
+  cursor: pointer;
+}
+
+.product-btn:hover {
+  background-color: rgb(252, 252, 252);
+  color: rgb(0, 0, 0);
 }
