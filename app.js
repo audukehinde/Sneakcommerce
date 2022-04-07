@@ -93,6 +93,22 @@ menuItem.forEach((item, index) => {
     wrapper.style.transform = `translateX(${-100 * index}vw)`;
 
     // Change the choosen Product
+    chosenProduct = products[index];
+    currentProductTitle.textContent = chosenProduct.title;
+    currentProductPrice.textContent = "$" + chosenProduct.price;
+    currentProductImg.src = chosenProduct.colors[0].img;
+    currentProductTitle.textContent = chosenProduct.title;
+
+    // Change product color
+    currentProductColors.forEach((color, index) => {
+      color.style.backgroundColor = chosenProduct.colors[index].code;
+    })
+  })
+})
+
+currentProductColors.forEach((color, index) => {
+  color.addEventListener('click', () => {
+    currentProductImg.src = chosenProduct.colors[index].img;
   })
 })
 
