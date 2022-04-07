@@ -14,6 +14,7 @@ nav {
   background-color: #000;
   color: #fff;
   padding: 20px 50px;
+  /* height: 22vh; */
 }
 
 .nav-top {
@@ -68,15 +69,17 @@ nav {
 
 .slider {
   background-image: url(./img/wall3.jpg);
-  /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%); */
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
 
 .slider-wrapper {
   display: flex;
   width: 500vw;
+  transition: all 1s ease-in-out;
 }
 
 .slider-item {
@@ -115,7 +118,7 @@ nav {
   left: 7%;
   border: 1px solid gray;
   z-index: 1;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .buy-btn {
@@ -139,7 +142,7 @@ nav {
 }
 
 .slider-item:nth-child(2) .slider-bg {
-  background-color: rgb(50, 6, 68);
+  background-color: rgb(145, 19, 196);
 }
 
 .slider-item:nth-child(3) .slider-bg {
@@ -159,7 +162,7 @@ nav {
 }
 
 .slider-item:nth-child(2) .slider-price {
-    color: rgb(50, 6, 68);
+    color: rgb(184, 8, 253);
 }
 
 .slider-item:nth-child(3) .slider-price {
