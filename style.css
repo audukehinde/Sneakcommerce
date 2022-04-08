@@ -377,3 +377,43 @@ input {
   background-color: rgb(252, 252, 252);
   color: rgb(0, 0, 0);
 }
+
+.gallary {
+  /* padding: 50px; */
+  display: flex;
+}
+
+.gallery-img, .ns-img {
+  width: 100%;
+  /* height: 100%; */
+}
+
+.gallary-item {
+  flex: 1;
+  padding: 50px;
+}
+
+.new-season {
+  display: flex;
+}
+
+.ns-item {
+  flex: 1;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ns-title {
+  font-size: 50px;
+  padding: 20px 0;
+}
+
+.ns-btn {
+  padding: 15px;
+  font-weight: 900;
+  cursor: pointer;
+}

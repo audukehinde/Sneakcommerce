@@ -124,6 +124,7 @@ currentProductSizes.forEach((size, index) => {
 })
 
 const productButton = document.querySelector('.product-btn');
+console.log(productButton);
 const payment = document.querySelector('.payment');
 const close = document.querySelector('.close');
 
