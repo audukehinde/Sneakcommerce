@@ -40,7 +40,7 @@ HTML5, CSS3, JavaScript
 
 ### Key Features <a name="key-features"></a>
 
-- Image SLider
+- Image Slider
 - Modal form
 - Responsive Design
 
